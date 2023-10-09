@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // n.toFixed(2) vai adicionar duas casas decimais
+        // n.toFixed(2).replace('.',',') vai trocar o ponto pela vírgula
+        // n.toLocaleString('pt-BR' , {style: 'currency', currency: 'BRL'}) vai localizar para 
+        //o brasil, com currency que é dinheiro e vai transformar em Real
+        var nome = window.prompt('Qual é o seu nome? ')
+        document.write(`Olá <strong>${nome}</strong>, Seu nome tem ${nome.length} letras <br/>`)
+        document.write(`Olá ${nome} seu nome em maiúsculo é ${nome.toUpperCase()} <br/>`)
+        document.write(`Olá ${nome} seu nome em maiúsculo é ${nome.toLowerCase()}`)
+    </script>
+</body>
+</html>
